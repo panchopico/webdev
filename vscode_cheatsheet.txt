@@ -1,0 +1,14 @@
+Duplicate current line (Linux)
+C-S-A Down/Up
+
+Extensions:
+Quick and simple text selection
+Ctrl + K ' select everything between single quotes
+Ctrl + K " select everything between double quotes
+Ctrl + K ` select everything between back ticks
+Ctrl + K ( select everything inside parenthesis
+Ctrl + K ) select everything inside parenthesis and include them
+Ctrl + K [ or ] select everything between square brackets and include them
+Ctrl + K { or } select everything between curly braces and include them
+Ctrl + K < or > select everything between angle brackets and include them
+https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select

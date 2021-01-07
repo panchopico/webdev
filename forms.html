@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- https://www.udemy.com/course/the-web-developer-bootcamp/learn/lecture/21917570#overview -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <!-- Emmet shortcut: "form<tab>"  -->
+    <form action="/tacos">
+        <!-- <input>  Defalut input type is 'text' -->
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input">Input types</a></br>
+        <p>
+            <label for="username">Enter a username:</label>
+            <input id="username" type='text' placeholder="username"> <!-- default -->
+        </p>
+        <p>
+            <label for="password">Enter the password:</label>
+            <input id="password" type='password' placeholder="Enter password">
+        </p>
+        <p>
+            <label for="color">Choose a color:</label>
+            <input id="color" type='color'>
+        </p>
+        <p>
+            <label for="number">Enter a number:</label>
+            <input id="number" type='number' placeholder="Enter a number">
+            <!--only allows numbers to be entered spinner/arrows to inc/dec-->
+        </p>
+        <p>
+            <!-- another way to associate a label with a form control: nesting -->
+            <!-- shorter, but you can't style them separately, not really used as much -->
+            <label>
+                Choose a date and time:
+                <input type='datetime-local'>
+            </label>
+        </p>
+
+    </form>
+
+</body>
+
+</html>

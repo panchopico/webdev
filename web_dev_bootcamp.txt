@@ -1,0 +1,84 @@
+__    __ ________    ____   ______ __
+||    ||||   || ))   || \\ ||   || ||
+\\ /\ //||== ||=)    ||  ))||== \\ //
+ \V/\V/ ||___||_))   ||_// ||___ \V/ 
+                                     
+____  ___    ___ ______ ___ ___ ___  _______ 
+|| ))// \\  // \\| || |//  // \\||\\//|||| \\
+||=)((   ))((   )) || ((   ||=|||| \/ ||||_//
+||_))\\_//  \\_//  ||  \\__|| ||||    ||||  
+
+* Link to the course https://www.udemy.com/course/the-web-developer-bootcamp/learn/lecture/22553932#content
+* Response back from server is like the instructions from Ikea
+they're not the couch, but you can build the couch with them.
+View source on a web page
+| The      |            |      |
+| Purple   | adjectives | CSS  |
+| Dinosaur | nouns      | HTML |
+| Danced   | verbs      | JS   |
+
+Inline vs Block elements
+Block elements take up the window side to side
+Inline doesn't, only as much space as it needs.
+<div> is Block
+<span> is Inline
+Both serve to group elemnts together
+
+Odds and ends:
+<hr> horizontal line, can be styled with CSS
+<br> line break, otherwise text just flows or you'd need <p></p> tags
+<sup></sup> superscript, can nest tags inside, too
+<sub></sub> as <sup>
+https://developer.mozilla.org/en-US/
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+https://entitycode.com/#featured-content
+https://dev.w3.org/html5/html-author/charref
+
+duplicate current line (Ubuntu) C-S-A down
+-------------------------------------------------------------------
+Semantic markup good for web crawlers and for screen readers.
+Also good for revising a page later on, all act like <div>,
+but make it easier to figure out what their content should be.
+MDN: Content sectioning
+<section>
+<article>
+<nav>
+<main>
+<header>
+<footer>
+<aside>
+<summary>
+<details>
+<time> with <datetime>
+<fig> with <figcaption>
+---------------------------------------------------------------------
+Emmet help
+https://docs.emmet.io/cheat-sheet/
+---------------------------------------------------------------------
+<table> rows of cells, with a header (optionally)
+<tr> table row
+<td> table data cell
+<th> table heading cell
+
+<thead> encloses row(s) with header cells
+<tfoot> encloses row(s) with footer cells
+<tbody> encloses the rows with data cells
+
+<colgroup>
+<caption>
+attributes colspan,rowspan
+----------------------------------------------------------------------
+<form> container for other elements, doesn't to much on its own
+"action" attribute tells where form data should be sent
+"method" tells which HTTP method (GET, POST, etc) should be used
+
+reddit search URL: https://reddit.com/search/?q=search%20term
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
+
+
+labels and associated controls (form inputs, etc.)
+label for == input id
+<label for="username">Enter a username</label>
+<input id="username" type='text' placeholder="username"> 
+
