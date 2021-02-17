@@ -11,26 +11,43 @@
 <body>
     <h1>Forms Demo</h1>
     <!-- Emmet shortcut: "form<tab>"  -->
+    Outside ffoorrmm.
+    <button>Does nothing</button>
     <form action="/tacos">
+        <!-- file:///P:/tacos?uname=delbert&passwd=Dumbu77&colorch=%231311a2&num_ent=777 -->
         <!-- <input>  Defalut input type is 'text' -->
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input">Input types</a></br>
         <p>
             <label for="username">Enter a username:</label>
-            <input id="username" type='text' placeholder="username"> <!-- default -->
+            <input id="username" type='text' name="uname" placeholder="username"> <!-- default -->
         </p>
         <p>
             <label for="password">Enter the password:</label>
-            <input id="password" type='password' placeholder="Enter password">
+            <input id="password" type='password' name="passwd" placeholder="Enter password">
         </p>
         <p>
             <label for="color">Choose a color:</label>
-            <input id="color" type='color'>
+            <input id="color" name="colorch" type='color'>
+            <!--notice what is sent when form is submitted:
+            file:///P:/tacos?colorch=%2340085e
+            -->
+
         </p>
         <p>
-            <label for="number">Enter a number:</label>
-            <input id="number" type='number' placeholder="Enter a number">
+            <label for="number" >Enter a number:</label>
+            <input id="number" type='number' name="num_ent" placeholder="Enter a number">
             <!--only allows numbers to be entered spinner/arrows to inc/dec-->
         </p>
+        <p>Both buttons inside form, top is default type "submit".</br>
+            Bottom is type "button"</p>
+        <button type="submit">
+            Submits to /tacos
+            <!-- clicking witll take you to the file in form action, which doesn't exist -->
+        </button></br>
+        <button type="button">
+            Does not submit to /tacos
+            <!-- clicking witll take you to the file in form action, which doesn't exist -->
+        </button>
         <p>
             <!-- another way to associate a label with a form control: nesting -->
             <!-- shorter, but you can't style them separately, not really used as much -->
@@ -39,7 +56,14 @@
                 <input type='datetime-local'>
             </label>
         </p>
-
+        <button>
+            Submit
+            <!-- clicking witll take you to the file in form action, which doesn't exist -->
+        </button>
+        <p>Another way to make a submit button is an input element with type "submit"</p>
+        <input type="submit"></br>
+        <p>Default and custom text on a button like this</p> <!-- default text on button-->
+        <input type="submit" value="Custom text"> <!-- default text on button-->
     </form>
 
 </body>
