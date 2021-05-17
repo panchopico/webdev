@@ -1,0 +1,58 @@
+/*
+Examples:
+
+selector {
+    property: value;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+input[type="text"]:nth-of-type(2n) {
+    border: 2px solid red;
+}
+background-color != background
+
+text-align
+font-weight
+text-decoration
+line-height
+letter-spacing
+font-size
+
+*/
+
+h1 { /* block-level elements take up the whole width of the page */
+    color: indigo;
+    background-color: lavenderblush;
+}
+
+h2 {
+    color: #a9c430;
+    background-color: rgb(89,151, 0);
+}
+
+h3 {
+    color: forestgreen;
+    background-color: yellow;
+}
+
+h4 {
+    color: palevioletred;
+}
+
+button {
+    color: magenta;
+    background-color: powderblue;
+}
+
+p {
+    color: olive;
+    background-color: paleturquoise;
+}
+
+body {
+    background-color: #AAA;
+}

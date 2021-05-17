@@ -1,0 +1,238 @@
+/*
+Examples:
+
+selector {
+    property: value;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+input[type="text"]:nth-of-type(2n) {
+    border: 2px solid red;
+}
+background-color != background
+
+
+
+text-align
+font-weight
+text-decoration
+line-height
+letter-spacing
+font-size
+
+Selects element with id of 'logout'
+each ID should be unique to one specific element
+#logout {
+    color: orange;
+    height: 300px;
+}
+
+Class selector
+Classes can be applied to many elements
+.classname {
+    property: value
+}
+
+Descendant selector
+Select all <a> inside <li>
+note: space between, not a comma
+comma would style both the same
+space only style the <a>
+could have section li a or even section dev span a
+li a {
+    color: teal;
+}
+
+Adjacent or combinator selector
+Select <p> immediately following an <h1>
+h1 + p {
+    color: red;
+}
+
+Direct Child
+select only <li> that are direct children
+of a <div>, exactly one level under
+div > li {
+    color: white;
+}
+
+Universal selector, matches everything
+Not really used, ever.
+* {
+    color: pink;
+}
+
+Attribute selector
+Select input elements with attribute "text"
+input[type="text"] {
+    width: 250px;
+    color: yellow;
+}
+
+Psuedo classes: specifies state of the selected elements
+:active
+:checked
+:first
+:first-child
+:hover
+:not()
+:nth-child()
+:nth-of-type()
+
+Psuedo elements: lets you style selected part of an element
+Without an element it affects the whole page; specificity applies
+::after
+::before
+::first-letter
+::first-line
+::selection
+
+Most to least specific: 
+Inline styles > ID selectors > class, attribute, psuedo-class selectors > element, psuedo-element selectors
+also !important specifier always wins
+https://specificity.keegan.st/
+
+button, input, other elements, etc., don't necessarily  inherit styles from their parent/container
+Use "inherit" to force them to:
+button {
+    color: inherit;
+}
+
+The border-width property may be specified using one, two, three, or four values.
+
+When one value is specified, it applies the same width to all four sides.
+When two values are specified, the first width applies to the top and bottom,
+     the second to the left and right.
+When three values are specified, the first width applies to the top,
+     the second to the left and right, the third to the bottom.
+When four values are specified, the widths apply to the top, right, bottom, and left in that order (clockwise).
+
+*/
+h2::first-letter {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+p::selection {
+    background-color: magenta;
+}
+
+::selection {
+    background-color: yellow;
+    color: midnightblue;
+}
+
+a:hover, label:hover {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+input[type="text"] {
+    width: 250px;
+    color: yellow;
+    background-color: darkred;
+}
+
+.races > h2 {
+    color: linen;
+    background-color: darkblue;
+}
+
+
+h3 + h4 {
+    background-color: indigo;
+}
+
+
+.test label {
+    background-color: rgb(108, 231, 108);
+}
+
+#register {
+    color: orange;
+    background-color: #264653;
+    height: 40px;
+}
+
+.butt {
+    background-color: fuchsia;
+}
+
+h1 {
+    text-align: center; /* wrt the container, which may not be full width*/
+    font-weight: 400; /* 400 = normal, 700 = bold, default H1 is 'bold' */
+    text-decoration: blue dotted underline; /* Lots of options, underline, overline, dotted,  */
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: Futura,  Geneva, Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+    /* width: 400px;
+    height: 60px; */
+    font-family: papyrus, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3, h4 {
+    width: 200px;
+    height: 20px;
+    font-family: monospace;
+    color: #e9c46a;
+    background-color: #974c39;
+}
+
+a {
+    text-decoration: none; /* removes default underlines from anchor tags, text is blue still*/ 
+    font-weight: bold;
+}
+
+p {
+    line-height: 2;
+    border-width: 3px;
+    border-color: rgb(178, 13, 243);
+    border-style: solid;
+}
+
+#one {
+    width: 800px;
+    background-color: rgb(158, 92, 233);
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    /* style
+    width | style
+    style | color
+     width | style | color */
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#two {
+    width: 800px;
+    background-color: rgb(219, 171, 11);
+    /* border-width: 5px;
+    border-color: rgb(240, 18, 10);
+    border-style: dashed dotted; */
+    border: 5px dashed rgb(240, 18, 10);
+    /* can't do multiple styles with one-liner border attrib */
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+#three {
+    width: 800px;
+    background-color: rgb(243, 101, 19);
+    border-width: 5px 10px;
+    border-color: rgb(53, 4, 4);
+    border-left-color: rgb(32, 80, 209);
+    border-left-width: 15px;
+    border-style: double;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+}

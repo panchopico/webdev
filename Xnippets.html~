@@ -1,0 +1,2301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Xnippets</title></head><body>&lt;!doctype html&gt;<br>
+&lt;html&gt;a<br>
+&nbsp; &lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;title&gt;Xnippets&lt;/title&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;meta charset="utf-8" /&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;meta http-equiv="Content-type" content="text/html; charset=utf-8" /&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;style type="text/css"&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;table, th, td {<br>
+&nbsp;&nbsp;&nbsp;&nbsp; border: 1px solid black;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; border-collapse: collapse;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;margin: auto;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;padding: 0;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;th, td {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;width: 33%;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; padding: 10px;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;td.tdset {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;background: #fdc;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;td.tdltblu {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;background: #cff;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;td.tdltred {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;background: #fcc;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;td.tdltgrn {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;background: #cfc;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;td.tdltprp {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;background: #d1b3ff;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;td.tdltyel {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;background: #ff0;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;}&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br>
+&nbsp;&nbsp;&nbsp; &lt;/style&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp; &lt;/head&gt;<br>
+&nbsp; &lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;table style="width:100%"&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 1 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction11()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf11" size = 60 value="coreOLR-5.3.19.zip"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction11() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf11");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.size = 60 value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction12()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf12" size = 60 size = 60 value="12 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction12() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf12");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.size = 60 value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction13()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf13" size = 60 value="this worked"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction13() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf13");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 1 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 2 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction21()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf21" size = 60
+value="https://updates.infinitecampus.net/packages/custom/OLRPrime/"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction21() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf21");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction22()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf22" size = 60 value="22 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction22() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf22");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction23()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf23" size=60 value="23 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction23() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf23");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 2 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 3 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction31()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf31" size=60 value="singleUpdate"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction31() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf31");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction32()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf32" size=60 value="32 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction32() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf32");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdltblu"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction33()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf33" size=60 value="blue cell"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction33() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf33");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 3 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 4 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction41()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf41" size=60 value="campus"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction41() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf41");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction42()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf42" value="42 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction42() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf42");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction43()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf43" size=60 value="43 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction43() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf43");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 4 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 5 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdset"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction51()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf51" size=60 value="sandbox"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction51() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf51");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction52()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf52" value="52 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction52() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf52");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction53()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf53" size=60 value="53 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction53() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf53");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 5 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 6 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction61()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf61" size=60 value="61 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction61() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf61");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction62()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf62" value="62 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction62() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf62");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction63()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf63" size=60 value="63 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction63() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf63");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 6 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 7 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction71()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf71" size=60 value="71 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction71() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf71");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction72()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf72" value="72 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction72() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf72");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction73()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf73" size=60 value="73 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction73() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf73");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 7 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 8 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction81()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf81" size=60 value="81 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction81() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf81");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction82()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf82" value="82 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction82() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf82");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction83()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf83" size=60 value="83 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction83() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf83");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 8 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 9 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction91()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf91" size=60 value="91 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction91() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf91");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction92()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf92" value="92 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction92() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf92");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction93()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf93" size=60 value="93 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction93() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf93");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 9 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 10 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction101()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf101" size=60 value="101 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction101() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf101");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction102()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf102" value="102 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction102() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf102");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction103()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf103" size=60 value="103 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction103() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf103");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 10 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 11 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction111()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf111" size=60 value="111 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction111() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf111");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction112()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf112" value="112 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction112() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf112");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction113()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf113" size=60 value="113 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction113() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf113");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 11 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 12 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction121()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf121" size=60 value="121 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction121() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf121");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction122()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf122" value="122 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction122() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf122");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction123()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf123" size=60 value="123 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction123() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf123");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 12 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 13 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction131()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf131" size=60 value="131 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction131() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf131");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction132()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf132" value="132 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction132() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf132");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction133()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf133" size=60 value="133 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction133() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf133");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 13 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 14 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction141()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf141" size=60 value="141 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction141() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf141");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction142()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf142" value="142 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction142() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf142");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction143()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf143" size=60 value="143 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction143() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf143");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 14 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 15 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction151()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf151" size=60 value="151 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction151() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf151");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction152()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf152" value="152 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction152() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf152");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction153()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf153" size=60 value="153 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction153() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf153");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 15 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 16 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction161()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf161" size=60 value="161 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction161() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf161");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdltyel"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction162()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf162" value="light yellow, smellow"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction162() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf162");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction163()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf163" size=60 value="163 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction163() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf163");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 16 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 17 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction171()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf171" size=60 value="171 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction171() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf171");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction172()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf172" value="172 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction172() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf172");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction173()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf173" size=60 value="173 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction173() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf173");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 17 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 18 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction181()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf181" size=60 value="181 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction181() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf181");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction182()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf182" value="182 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction182() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf182");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdltred"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction183()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf183" size=60 value="light red"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction183() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf183");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 18 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 19 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction191()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf191" size=60 value="191 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction191() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf191");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction192()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf192" value="192 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction192() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf192");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction193()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf193" size=60 value="193 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction193() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf193");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 19 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 20 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction201()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf201" size=60 value="201 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction201() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf201");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction202()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf202" value="202 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction202() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf202");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction203()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf203" size=60 value="203 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction203() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf203");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 20 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 21 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction211()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf211" size=60 value="211 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction211() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf211");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction212()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf212" value="212 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction212() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf212");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction213()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf213" size=60 value="213 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction213() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf213");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 21 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 22 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction221()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf221" size=60 value="221 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction221() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf221");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction222()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf222" value="222 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction222() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf222");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction223()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf223" size=60 value="223 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction223() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf223");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 22 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 23 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction231()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf231" size=60 value="231 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction231() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf231");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdltgrn"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction232()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf232" value="light green"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction232() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf232");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction233()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf233" size=60 value="233 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction233() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf233");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 23 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 24 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction241()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf241" size=60 value="241 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction241() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf241");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction242()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf242" value="242 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction242() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf242");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction243()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf243" size=60 value="243 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction243() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf243");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 24 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 25 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction251()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf251" size=60 value="251 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction251() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf251");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction252()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf252" value="252 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction252() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf252");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction253()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf253" size=60 value="253 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction253() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf253");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 25 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 26 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction261()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf261" size=60 value="261 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction261() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf261");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction262()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf262" value="262 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction262() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf262");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction263()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf263" size=60 value="263 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction263() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf263");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 26 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 27 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction271()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf271" size=60 value="271 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction271() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf271");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction272()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf272" value="272 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction272() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf272");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction273()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf273" size=60 value="273 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction273() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf273");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 27 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 28 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction281()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf281" size=60 value="281 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction281() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf281");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction282()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf282" value="282 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction282() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf282");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction283()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf283" size=60 value="283 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction283() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf283");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 28 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 29 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction291()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf291" size=60 value="291 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction291() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf291");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction292()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf292" value="292 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction292() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf292");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction293()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf293" size=60 value="293 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction293() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf293");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 29 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 30 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction301()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf301" size=60 value="301 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction301() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf301");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction302()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf302" value="302 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction302() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf302");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction303()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf303" size=60 value="303 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction303() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf303");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 30 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 31 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction311()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf311" size=60 value="311 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction311() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf311");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction312()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf312" value="312 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction312() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf312");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction313()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf313" size=60 value="313 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction313() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf313");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 31 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 32 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction321()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf321" size=60 value="321 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction321() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf321");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction322()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf322" value="322 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction322() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf322");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction323()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf323" size=60 value="323 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction323() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf323");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 32 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 33 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction331()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf331" size=60 value="331 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction331() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf331");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction332()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf332" value="332 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction332() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf332");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction333()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf333" size=60 value="333 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction333() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf333");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 33 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 34 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction341()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf341" size=60 value="341 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction341() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf341");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction342()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf342" value="342 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction342() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf342");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction343()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf343" size=60 value="343 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction343() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf343");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 34 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 35 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction351()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf351" size=60 value="351 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction351() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf351");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction352()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf352" value="352 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction352() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf352");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction353()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf353" size=60 value="353 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction353() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf353");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 35 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 36 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction361()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf361" size=60 value="361 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction361() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf361");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction362()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf362" value="362 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction362() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf362");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction363()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf363" size=60 value="363 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction363() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf363");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 36 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 37 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction371()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf371" size=60 value="371 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction371() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf371");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction372()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf372" value="372 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction372() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf372");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction373()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf373" size=60 value="373 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction373() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf373");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 37 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 38 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction381()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf381" size=60 value="381 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction381() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf381");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction382()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf382" value="382 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction382() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf382");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction383()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf383" size=60 value="383 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction383() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf383");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 38 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 39 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction391()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf391" size=60 value="391 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction391() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf391");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction392()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf392" value="392 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction392() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf392");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction393()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf393" size=60 value="393 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction393() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf393");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 39 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 40 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction401()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf401" size=60 value="401 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction401() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf401");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction402()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf402" value="402 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction402() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf402");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction403()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf403" size=60 value="403 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction403() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf403");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 40 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 41 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction411()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf411" size=60 value="411 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction411() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf411");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction412()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf412" value="412 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction412() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf412");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction413()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf413" size=60 value="413 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction413() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf413");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 41 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 42 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction421()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf421" size=60 value="421 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction421() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf421");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction422()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf422" value="422 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction422() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf422");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction423()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf423" size=60 value="423 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction423() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf423");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 42 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 43 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction431()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf431" size=60 value="431 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction431() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf431");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction432()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf432" value="432 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction432() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf432");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction433()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf433" size=60 value="433 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction433() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf433");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 43 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 44 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction441()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf441" size=60 value="441 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction441() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf441");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction442()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf442" value="442 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction442() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf442");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction443()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf443" size=60 value="443 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction443() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf443");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 44 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 45 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction451()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf451" size=60 value="451 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction451() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf451");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction452()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf452" value="452 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction452() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf452");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction453()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf453" size=60 value="453 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction453() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf453");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 45 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 46 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction461()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf461" size=60 value="461 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction461() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf461");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction462()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf462" value="462 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction462() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf462");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction463()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf463" size=60 value="463 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction463() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf463");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 46 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 47 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction471()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf471" size=60 value="471 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction471() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf471");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction472()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf472" value="472 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction472() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf472");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction473()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf473" size=60 value="473 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction473() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf473");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 47 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 48 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction481()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf481" size=60 value="481 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction481() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf481");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td class = "tdltprp"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction482()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf482" value="light purple, bitch!"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction482() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf482");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction483()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf483" size=60 value="483 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction483() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf483");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 48 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 49 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction491()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf491" size=60 value="491 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction491() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf491");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction492()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf492" value="492 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction492() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf492");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction493()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf493" size=60 value="493 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction493() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf493");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 49 end --&gt;<br>
+<br>
+&lt;tr&gt; &lt;!-- row 50 begin --&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction501()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf501" size=60 value="501 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction501() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf501");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction502()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf502" value="502 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction502() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf502");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;button onclick="myFunction503()"&gt;Copy text&lt;/button&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;input type="text" id = "txf503" size=60 value="503 text"&gt;&lt;/input&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; function myFunction503() {<br>
+&nbsp;&nbsp;&nbsp; &nbsp; var copyText = document.getElementById("txf503");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; copyText.select();<br>
+&nbsp;&nbsp;&nbsp; &nbsp; document.execCommand("Copy");<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &lt;!-- alert("Copied the text: " + copyText.value); --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; }<br>
+&nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; &lt;!-- row 50 end --&gt;<br>
+&nbsp;&nbsp;&nbsp; &nbsp; <br>
+&nbsp;&nbsp;&nbsp; &lt;/table&gt;&nbsp;&nbsp;&nbsp; <br>
+&nbsp; &lt;/body&gt;<br>
+&lt;/html&gt;<br>
+<br>
+
+</body></html>

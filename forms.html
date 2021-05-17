@@ -34,9 +34,12 @@
 
         </p>
         <p>
-            <label for="number" >Enter a number:</label>
-            <input id="number" type='number' name="num_ent" placeholder="Enter a number">
-            <!--only allows numbers to be entered spinner/arrows to inc/dec-->
+            <label for="number">Enter a number:</label>
+            <input id="number" type='number' name="num_ent" min=1 max=1000 step=17 placeholder="Enter a number">
+            <!--only allows numbers to be entered spinner/arrows to inc/dec
+                no numbers lower than min, or higher than max
+                inc/dec by step 
+            -->
         </p>
         <p>Both buttons inside form, top is default type "submit".</br>
             Bottom is type "button"</p>
@@ -65,7 +68,90 @@
         <p>Default and custom text on a button like this</p> <!-- default text on button-->
         <input type="submit" value="Custom text"> <!-- default text on button-->
     </form>
-
+    <h2>Hijacking Search Engines</h2>
+    <form action="https://www.reddit.com/search">
+        <H3>Reddit</H3>
+        <!-- <input type="text" name="query">
+          https://www.reddit.com/search?query=dog but the patter is ?q=dog -->
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <h3>Google</h3>
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <form action="https://www.duckduckgo.com/">
+        <h3>DuckDuckGo</h3>
+        <input type="text" name="q">
+        <button>Search DuckDuckGo</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <h3>Youtube</h3>
+        <input type="text" name="search_query">
+        <button>Search YouTube</button>
+    </form>
+    <h2>Checkboxes</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything.</label>
+        <br />
+        <input type="checkbox" name="agree_checked" id="agree_checked" checked>
+        <label for="agree">Default is checked.</label>
+        <p>
+            <!-- radio buttons associated by having the same name -->
+            <label for="sm">Small</label>
+            <input type="radio" name="size" id="sm" value="small">
+            <label for="med">Medium</label>
+            <input type="radio" name="size" id="med" value="medium">
+            <label for="lg">Large</label>
+            <input type="radio" name="size" id="lg" value="large">
+            <label for="xl">Extra Large</label>
+            <input type="radio" name="size" id="xl" value="XLarge">
+        </p>
+        <p>
+            <label for="meal">Please select an entree:</label>
+            <select name="meal" id="meal">
+                <option value="">-- Choose --</option>
+                <option value="steak">Steak</option>
+                <option value="chicken">Chicken</option>
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+            </select>
+        </p>
+        <p>
+            <label for="meal2">Please select an entree:</label>
+            <select name="meal2" id="meal2">
+                <option value="worms">Worms</option>
+                <option value="steak">Steak</option>
+                <option value="chicken" selected>Chicken</option>
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+            </select>
+        </p>
+        <P>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" name="cheeselevel" min="1" value="85" max="100" step="7">
+            <!-- Submiting gives you 
+                file:///P:/birds?agree_checked=on&meal=&meal2=chicken&cheeselevel=71
+                value is default value
+            -->
+        </P>
+        <P>
+            <label for="requests">Any special requests?</label>
+            <!-- textarea is not an input type, it's an HTML element
+                Needs a closing tag
+            -->
+            <br />
+            <textarea id="requests" rows=10 cols=40 name="requests" placeholder="Type something here">
+                When submitted, this entire contents is sent to the server.
+            </textarea>
+        </P>
+        <button>Submit</button>
+        <!-- check/uncheck buttons and "Submit"
+            See what is sent with different combinations
+        -->
+    </form>
 </body>
 
 </html>

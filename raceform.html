@@ -1,0 +1,77 @@
+<html>
+<!-- 
+    selector {
+        property: value;
+    }
+-->
+
+<head>
+    <title>Race Registration</title>
+    <!--     <style>
+        h4 {
+            color: palevioletred;
+        }
+
+        button {
+            background-color: powderblue;
+        }
+    </style> -->
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/racereg">
+        <div>
+            <label for="fname">First Name</label>
+            <input id="fname" type='text' name="fname" required placeholder="First">
+            <label for="lname">Last Name</label>
+            <input id="lname" type='text' name="lname" required placeholder="Last">
+        </div>
+        <div>
+            <h3>Select a race:</h3>
+            <!-- radio buttons associated by having the same name -->
+            <input type="radio" name="racetype" id="fun" value="FunRun"> <label for="fun">Fun Run 5k</label><br />
+            <input type="radio" name="racetype" id="half" value="HalfRun"> <label for="half">Half Marathon</label><br />
+            <input type="radio" name="racetype" id="full" value="FullRun"> <label for="full">Full Marathon</label><br />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="pw">Password</label>
+            <input type="password" id="pw" name="pw" required>
+        </div>
+        <p>
+            <label for="agegroup">Select Age Group</label>
+            <select name="agegroup" id="agegroup">
+                <option value="under18" selected>Under 18</option>
+                <option value="age1825">18 to 25</option>
+                <option value="age2645">26 to 45</option>
+                <option value="age4665">46 to 65</option>
+                <option value="age66Dead">66 to Dead</option>
+            </select>
+        </p>
+        <div>
+            <input type="submit" value="Register!">
+        </div>
+    </form>
+    <div>
+        <!--         <h1>CSS Intro: Bad Ideas</h1>
+        <h2>Inline sytles (look at the source)</h2>
+        <h3 style="color: purple">Hello World</h3>
+        <button style="background-color: palegreen;">I AM BUTTON</button> -->
+        <h1>CSS Style intro</h1>
+        <h2>Style examples</h2>
+        <h3>Hello World</h3>
+        <button>I AM BUTTON</button>
+
+
+        <h2>Style element (in the "head" section)</h2>
+        <h4>Hello World</h4>
+        <h4>Hello Another World</h4>
+        <button>I AM BUTTON</button>
+        <button>I AM BUTTON</button>
+    </div>
+</body>
+
+</html>
