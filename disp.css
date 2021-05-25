@@ -1,0 +1,25 @@
+h1 {
+    background-color: palegoldenrod;
+    border: 2px solid black;
+    display: inline;
+}
+
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    /*display: block;*/
+    display: none; /* hides the element, it's still there if you inspect the page*/
+    width: 200px; /* ignored for inline elements*/
+    padding: 30px; /* respected, but doesn't push other content away */
+    margin: 15px; /* respected only horizontally on that line, not vertically */
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 1px solid black;
+    /* display: inline; */ /* note inline vs inline-block */
+    display: inline-block;
+    margin: 20px;
+}

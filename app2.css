@@ -140,6 +140,7 @@ input[type="text"] {
 .races > h2 {
     color: linen;
     background-color: darkblue;
+    padding: 20px 10px;
 }
 
 
