@@ -23,3 +23,34 @@ div {
     display: inline-block;
     margin: 20px;
 }
+
+
+ul {
+    font-size: 1.5em; 
+}
+
+
+li {
+    font-size: 1.5rem; /* relative to root container font size, won't multiply */
+}
+
+button {
+    font-size: 1em; /* relative to size of parent font*/
+    padding: 0 1em; /* relative to size of element's own font*/
+    border-radius: 0.5em; /* relative to size of element's own font*/
+    background-color: turquoise;
+    color: whitesmoke;
+}
+/*
+Relative units:
+em - relative size of the font size of parent
+rem
+vh
+vw
+% of the parent element
+% of the font size used
+
+Absolute:
+
+
+*/
