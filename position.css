@@ -14,3 +14,35 @@ div {
     background-color: yellow;
     border: 3px solid rgb(102, 233, 15);
 }
+
+#relative {
+    position: relative; /*  to where it would be*/
+    top: 20px; /* can also use negative values */
+    left: 30px;
+    background-color: yellow;
+    border: 3px solid rgb(102, 233, 15);
+}
+
+#absolute {
+    position: absolute; /*  to where it would be*/
+    top: 20px; /* can also use negative values */
+    left: 30px;
+    background-color: green;
+    border: 3px solid rgb(233, 15, 222);
+}
+
+#absec {
+    position: relative; /*  to where it would be*/
+    top: 50px; /* can also use negative values */
+    left: 50px;
+    background-color: green;
+    border: 3px solid rgb(233, 15, 222);
+}
+
+#fixed {
+    position: fixed; /*  to where it would be*/
+    top: 30px; /* can also use negative values */
+    left: 30px;
+    background-color: orange;
+    border: 2px solid rgb(53, 19, 5);
+}
