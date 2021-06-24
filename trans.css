@@ -17,3 +17,36 @@ div {
     border-radius: 50%;
     transition: background-color 2s 1s; /* 2s transition with 1s delay */
 }
+
+h1 {
+ background-color: #dc2f02;
+ border: 5px solid #ffb703;
+ color: #fdffb6;
+ padding: 0.7em;
+ width: 300px;
+ font-size: 1.8em;
+ text-align: center;
+ margin: 20px auto;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: lighter;
+}
+
+h1:nth-of-type(2n) {
+    background-color: #219ebc;   
+}
+
+h1:nth-of-type(3n) {
+    background-color: #023047;   
+ }
+
+ h1:nth-of-type(4n) {
+    background-color: #ffb703;
+}
+
+section:first-of-type h1:nth-of-type(1) {
+    transform: rotate(45deg)
+}
+
+section:first-of-type h1:nth-of-type(2) {
+    transform: rotate(180deg)
+}
