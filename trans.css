@@ -18,6 +18,14 @@ div {
     transition: background-color 2s 1s; /* 2s transition with 1s delay */
 }
 
+section {
+    background-color: #caffbf;
+}
+
+section:first-of-type {
+    background-color: #bdb2ff;
+}
+
 h1 {
  background-color: #dc2f02;
  border: 5px solid #ffb703;
@@ -48,5 +56,15 @@ section:first-of-type h1:nth-of-type(1) {
 }
 
 section:first-of-type h1:nth-of-type(2) {
-    transform: rotate(180deg)
+    transform: scale(1.5)
+}
+
+section:first-of-type h1:nth-of-type(3) {
+    transform-origin: top left;
+    transform: rotate(45deg)
+}
+
+section:first-of-type h1:nth-of-type(4) {
+    transform-origin: bottom right;
+    transform: rotate(45deg)
 }
