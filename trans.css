@@ -25,6 +25,9 @@ section {
 section:first-of-type {
     background-color: #bdb2ff;
 }
+section:last-of-type {
+    transform: skew(-20deg) rotate(10deg) scale(0.7);
+}
 
 h1 {
  background-color: #dc2f02;
@@ -67,4 +70,12 @@ section:first-of-type h1:nth-of-type(3) {
 section:first-of-type h1:nth-of-type(4) {
     transform-origin: bottom right;
     transform: rotate(45deg)
+}
+
+section:last-of-type h1:nth-of-type(2) {
+    transform: scale(0.75) rotate(-15deg);
+}
+
+section:last-of-type h1:nth-of-type(3) {
+    transform: rotate(150deg) scale(1.1) skew(20deg, 10deg);
 }
